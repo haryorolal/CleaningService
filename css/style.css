@@ -1,0 +1,131 @@
+.navbar .navbar-default .navbar-fixed-top .navbar-inverse{
+    
+}
+.title{
+    color: #96725e;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
+.title:hover{
+    color: #999;
+}
+.dropdown ul li a:hover{
+    background: #96725e;
+}
+.nav.navbar-nav.navbar-right li a:hover{
+    background: #12bfe3;
+}
+.nav.navbar-nav.navbar-right li a:active{
+    background: #ffffff;
+}
+.navbar-inverse .navbar-nav> .active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background: #F1BA0A;
+}
+
+
+.product {
+    margin-top: 20px;
+    background-color: #fff;
+    color: #111;
+}
+.panel-heading {
+    background-color: cadetblue !important;
+}
+
+.heading{
+    text-align: center;
+}
+.img-circle{
+    width: 50px;
+}
+.call-to-action{
+    border: 1px solid #96725e;
+    padding: 10px;
+}
+.one{
+    color: #2E0C0c;
+}
+.two{
+    color: #f4292c;
+}
+.three{
+    color: #20450E;
+}
+.height{
+    text-align: justify;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.space{
+    margin-top: 50px;
+}
+.contact { 
+    background-color: bisque;
+}
+.contact .input-group {
+	padding: 10px;
+}
+.panel-body>img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 320px) and (max-width:350px){
+    .carousel-caption h3{
+        display: none;
+    }
+    .call-to-action{
+        margin-bottom: 10px;
+    }
+    .panel-body>img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 360px) and (max-width:360px){
+    .carousel-caption h3{
+        font-size: 18px;
+    }
+    .call-to-action{
+        margin-bottom: 10px;
+    }
+    .panel-body>img{        
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*  FOOTER  */
+.footer {
+    padding: 30px;
+    color: #cccccc;
+    background-color: #222222;
+}
+.footer .social {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.footer input {
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    border: none;
+    background-color: #cccccc;
+    color: #000;
+}
+.footer .btn {
+    padding: 10px 5px 10px;
+    margin: -3px 0 0 5px;
+}
